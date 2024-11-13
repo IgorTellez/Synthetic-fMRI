@@ -9,11 +9,11 @@ macPath = '/Volumes/project/PG_Niendorf_fmri';
 windowsPath = 'Z:/';
 OStypeP = macPath;
 % Paths to masks
-dilMask1P = strcat(OStypeP,'/fmri/pipeHMR/projects/H01/fMRI_Igor/fMRIsim/testAll/maskDil/mask4_dil9.nii.gz');
-dilMask2P = strcat(OStypeP,'/fmri/pipeHMR/projects/H01/fMRI_Igor/fMRIsim/testAll/maskDil/mask3_dil9.nii.gz');
-dilMask3P = strcat(OStypeP,'/fmri/pipeHMR/projects/H01/fMRI_Igor/fMRIsim/testAll/maskDil/mask2_dil9.nii.gz');
-dilMask4P = strcat(OStypeP,'/fmri/pipeHMR/projects/H01/fMRI_Igor/fMRIsim/testAll/maskDil/mask1_dil9.nii.gz');
-dilMasksWBP = strcat(OStypeP,'/fmri/pipeHMR/projects/H01/fMRI_Igor/fMRIsim/testAll/maskDil/Allmasks_dil9.nii.gz');
+dilMask1P = strcat(OStypeP,'/mask4_dil9.nii.gz');
+dilMask2P = strcat(OStypeP,'/mask3_dil9.nii.gz');
+dilMask3P = strcat(OStypeP,'//mask2_dil9.nii.gz');
+dilMask4P = strcat(OStypeP,'/mask1_dil9.nii.gz');
+dilMasksWBP = strcat(OStypeP,'/Allmasks_dil9.nii.gz');
 dilMasksWB = niftiread(dilMasksWBP);
 dilMask1 = niftiread(dilMask1P);
 dilMask2 = niftiread(dilMask2P);
